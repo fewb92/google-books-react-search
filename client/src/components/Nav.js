@@ -5,13 +5,13 @@ export default function Nav() {
             <div>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">BookSave</a>
+                        <a class="nav-link active" aria-current="page" href="/">Google Books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Search</a>
+                        <a class="nav-link" href="/search">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Books</a>
+                        <a class="nav-link" href="/my-books">My Books</a>
                     </li>
                 </ul>
             </div>
