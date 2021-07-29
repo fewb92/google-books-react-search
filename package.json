@@ -1,0 +1,32 @@
+{
+  "name": "google-books-react-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fewb92/google-books-react-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fewb92/google-books-react-search/issues"
+  },
+  "homepage": "https://github.com/fewb92/google-books-react-search#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.13.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
