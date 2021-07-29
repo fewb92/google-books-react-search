@@ -9,7 +9,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
-      <Route exact path="/"
+      <Route exact path="/">
+        <Nav />
+        <BookSearch />
+      </Route>
+
+      <Route exact path="/my-books">
+        <Nav />
+        <MyBooks />
+      </Route>
+      
+      <Route exact path="/search">
+        <Nav />
+        <BookSearch />
+      </Route>
     </Router>
   );
 }
